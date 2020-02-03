@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- this is a jquery file , this is main file. -->
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+
+
+   <!-- now start jquery functionality ..  lets go -->
+	<script type="text/javascript">
+		/*
+		 this is a main syntax copy it again and agian.. $('').(); 
+		 */
+		$(document).ready(function(){
+         
+	         $('.drop ul li').hover(function(){
+	         $(this).find('ul').stop().slideToggle(3000);
+	         });
+
+		});
+	</script>
+</head>
+<body>
+	<nav class="drop">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<!-- this is designing portion will be start -->
+			<li><a href="#">Designing <img src="arrow.png" alt=""></a>
+					<ul>
+						<li><a href="#">HTML5</a></li>
+						<li><a href="#">CSS3</a></li>
+						<li><a href="#">javascript</a></li>
+						<li><a href="#">Bootstrap</a></li>
+					</ul> 
+			</li>
+			<!-- this is portion of development -->
+			<li><a href="#">Development <img src="arrow.png" alt=""></a></a>
+					<ul>
+						<li><a href="#">javascript</a></li>
+						<li><a href="#">PHP &amp; SQL</a></li>
+						<li><a href="#">wordpress</a></li>
+						<li><a href="#">joomla</a></li>
+					</ul> 
+
+			</li>
+			<li><a href="#">Graphics</a></li>
+			<!-- this is portion of project -->
+			<li><a href="#">Projects <img src="arrow.png" alt=""></a></a>
+					<ul>
+						<li><a href="#">HTML5</a></li>
+						<li><a href="#">CSS3</a></li>
+						<li><a href="#">javascript</a></li>
+						<li><a href="#">Bootstrap</a></li>
+					</ul>
+
+			</li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">Contact us</a></li>
+		</ul>
+	</nav>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{
+	background-color: #756969;
+
+
+}
+.drop{
+	background-color: #303D61;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin:0 auto;
+}
+.drop ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.drop ul li{
+	display: inline-block;
+	position: relative;
+}
+.drop ul li a{
+	display: block;
+	height: 45px;
+	width: 170px;
+	color: white;
+	line-height:45px;
+	font-family: arial;
+	text-decoration: none;
+}
+.drop ul li a:hover{
+	background-color: #3F3A3A;
+	border-radius: 10px;
+}
+.drop ul li ul{
+	position:absolute;
+	display:none ;
+}
+.drop ul  ul{
+	display: block;
+	background-color: #3F3A3A;
+}
+.drop ul ul li a:hover{
+	background-color:#E34A4A;
+}
+.drop ul li img{
+	height: 14px;
+	width: 14px;
+	vertical-align: middle;
+	padding-left: 10px;
+}
